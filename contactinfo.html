@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us - Looker BI Course</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #eef3f7;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 700px;
+      width: 100%;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    .contact-info p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .contact-info span {
+      font-weight: bold;
+      color: #0078d7;
+    }
+
+    form {
+      margin-top: 30px;
+    }
+
+    label {
+      display: block;
+      margin: 15px 0 5px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #0078d7;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Contact Details for Course Info</h1>
+    
+    <div class="contact-info">
+      <p>📞 <span>Mobile No:</span> +91 8310861170</p>
+      <p>📧 <span>Email:</span> gkvardhan71@gmail.com</p>
+      <p>📍 <span>Address:</span> Vama Deva Techno Solutions (Eduguru Institute),<br>
+         Beside Vinayaka Theatre, Marathahalli, Bangalore - 560037</p>
+    </div>
+
+    <form action="https://formsubmit.co/gkvardhan71@gmail.com" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="New Inquiry from Looker BI Course Form">
+  <input type="hidden" name="_template" value="box">
+  <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html">
+
+  <label for="name">Your Name</label>
+  <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+  <label for="email">Your Email</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+  <label for="message">Your Message</label>
+  <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+
+  <button type="submit">Send Message</button>
+</form>
+
+
+  </div>
+
+
+
+</body>
+</html>
